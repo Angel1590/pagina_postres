@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recetas y más</title>
+    <style>
+        body {
+            font-family: 'Poppins', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: repeating-linear-gradient(45deg, #f8b195, #f8b195 10px, #f67280 10px, #f67280 20px);
+            color: #333;
+        }
+        header {
+            background:  rgba(51, 51, 51, 0.9);
+            color: orange;
+            padding: 20px;
+            text-align: center;
+            font-size: 1.8em;
+            font-weight: bold;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+        }
+        nav {
+            background-color: #444;
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+            box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 12px 18px;
+            font-weight: bold;
+            transition: all 0.3s ease-in-out;
+        }
+        nav a:hover {
+            background-color: #ff9800;
+            color: black;
+            border-radius: 5px;
+        }
+        section {
+            padding: 20px;
+            max-width: 900px;
+            margin: auto;
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+        footer {
+            background: rgba(51, 51, 51, 0.9);
+            color: white;
+            text-align: center;
+            padding: 15px;
+            font-size: 1.2em;
+            font-weight: bold;
+            box-shadow: 0px -3px 5px rgba(0, 0, 0, 0.3);
+        }
+        .btn-arriba {
+            position: fixed;
+            bottom: 80px;
+            right: 20px;
+            background-color: #ff9800;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 50px;
+            font-size: 16px;
+            cursor: pointer;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+            transition: all 0.3s ease;
+        }
+        .btn-arriba:hover {
+            background-color: #ff5722;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        🍰 Recetas y más ✨
+    </header>
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#categorias">Categorías</a>
+        <a href="#proposito">Proposito</a>
+        <a href="/pagina_postres/paginas/pagina1.html">Cocinando con Bretania y su pinche</a>
+    </nav>
+    <section id="inicio">
+        <h2>Inicio</h2>
+        <p>Bienvenidos a <strong>"Postres y más"</strong>. Descubre un mundo dulce donde cada receta cuenta una historia.</p>
+        <p>¿Te apasiona la repostería? ¿Buscas ideas fáciles y deliciosas para compartir con quienes amas? ¡Este es el lugar perfecto!</p>
+        <p>Cada semana ofrecemos nuevas recetas, tips de cocina y secretos de repostería.</p>
+        <p>Únete a nuestra comunidad y convierte cada momento en una celebración de sabor y creatividad.</p>
+    </section>
+    <section id="categorias">
+        <h2>Categorías</h2>
+        <ul>
+            <li><a href="/pagina_postres/paginas/receta1.html">🍏 Mini tarta de manzana</a></li>
+            <li><a href="/pagina_postres/paginas/receta2.html">🍮 Flan Napolitano</a></li>
+            <li><a href="/pagina_postres/paginas/receta3.html">🎂 Pastel Imposible</a></li>
+            <li><a href="/pagina_postres/paginas/receta4.html">🥐 Rolls de Canela</a></li>
+            <li><a href="/pagina_postres/paginas/receta5.html">🍋 Carlota de Limón</a></li>
+            <li><a href="/pagina_postres/paginas/receta6.html">🍓 Carlota de Fresa</a></li>
+        </ul>
+    </section>
+    <section id="proposito">
+        <h2>Proposito</h2>
+        <p>"Recetas y más" es un proyecto desarrollado por los jóvenes del COBAO Plantel 52, apasionados por la repostería y la cocina creativa. Nuestro propósito es inspirar y compartir recetas deliciosas que conviertan momentos cotidianos en experiencias memorables. A través de recetas fáciles de seguir, consejos prácticos y recomendaciones, buscamos fomentar el amor por la gastronomía y promover la creatividad en la cocina. Queremos que esta página sea un espacio de aprendizaje y comunidad donde cada visitante descubra el placer de cocinar y experimentar con sabores únicos.
+</p>
+    </section>
+    <footer>
+        🍩 Recetas y más 🎂
+    </footer>
+    <button class="btn-arriba" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">⬆️ Arriba</button>
+</body>
+</html>
